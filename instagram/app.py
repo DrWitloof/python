@@ -1,9 +1,14 @@
 from instabot import Bot
 import os
 import shutil
+import json
 
-username = 'koen@banaanmaan.be'
-password = ''
+with open('cerdentials.json') as json_data:
+    cerdentials = json.load(json_data)
+
+username = credentials['user']
+password = credentials['password']
+
 mediafile = "posts/upload.mp4"
 text = 'Rotating oscillating arcs' + '\r\n' + '#processing'
 
