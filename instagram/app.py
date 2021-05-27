@@ -3,7 +3,7 @@ import os
 import shutil
 
 username = 'koen@banaanmaan.be'
-password = 'D9p!L3i24xKaWxzFd'
+password = ''
 mediafile = "posts/upload.mp4"
 text = 'Rotating oscillating arcs' + '\r\n' + '#processing'
 
